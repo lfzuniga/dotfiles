@@ -1,3 +1,13 @@
+- defaults:
+    link:
+      create: true
+      relink: true
+
 - clean: []
-- link: {}
-- shell: []
+
+- link:
+    ~/.vim: vim
+    ~/.vimrc: vimrc
+    ~/.zshrc: zshrc
+    ~/.tmux.conf: tmux.conf
+
