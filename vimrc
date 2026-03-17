@@ -7,7 +7,7 @@ set showmatch " show matching braces when text indicator is over them
 set nocompatible
 filetype plugin indent on " enable file type detection
 set autoindent
-set colorcolumn=100
+set colorcolumn=120
 
 if !has('gui_running') && &term =~ '^\%(screen\|tmux\)'
   let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
