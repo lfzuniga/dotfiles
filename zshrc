@@ -48,5 +48,5 @@ export PATH=$ACT_HOME/bin:$PATH
 export PATH="/opt/homebrew/opt/flex/bin:/opt/homebrew/opt/bison/bin:$PATH"
 
 #for actflow easy access
-export ACTFLOW=$HOME/console/avlsi/tools/actflow
+export ACTFLOW=$HOME/Documents/console/avlsi/tools/actflow
 
