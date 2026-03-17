@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+#This is a script to automate the flags and update act seamlessly
+
+#flags for the compiler
+export PATH="/opt/homebrew/opt/llvm/bin:$PATH"
+export CC="/opt/homebrew/opt/llvm/bin/clang"
+export CXX="/opt/homebrew/opt/llvm/bin/clang++"
+
+
+cd ~/console/avlsi/tools/actflow
+git pull
+git submodule update --init --recursive
+./clean
+./build

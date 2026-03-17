@@ -11,3 +11,6 @@
     ~/.zshrc: zshrc
     ~/.tmux.conf: tmux.conf
     ~/.bashrc: bashrc 
+    ~/upgrade_act_MacOS: upgrade_act_MacOS
+
+- shell:
