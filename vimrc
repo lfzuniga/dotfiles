@@ -24,6 +24,10 @@ augroup CursorLineOnlyInActiveWindow
 	autocmd WinLeave * setlocal nocursorline
 augroup END
 
+" finding into files
+set path+=** "very similar to fuzy finder
+set wildmenu
+
 
 "-----------------
 "Basic editing config
