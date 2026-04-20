@@ -17,6 +17,7 @@ export PATH
 
 # User specific aliases and functions
 
+set -o vi
 
 . /gpfs/gibbs/project/manohar/rm2267/setup/init
 setup local
