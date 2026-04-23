@@ -14,7 +14,8 @@ if !has('gui_running') && &term =~ '^\%(screen\|tmux\)'
   let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
 endif
 set termguicolors
-colorscheme tokyonight
+set background=dark
+colorscheme night
 
 
 " highlight current line, but only in active window

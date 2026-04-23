@@ -10,5 +10,5 @@ export CXX="/opt/homebrew/opt/llvm/bin/clang++"
 cd $ACTFLOW
 git pull
 git submodule update --init --recursive
-./clean
+# ./clean
 ./build
