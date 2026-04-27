@@ -8,3 +8,6 @@
 [submodule "vim/pack/vendor/start/night"]
 	path = vim/pack/vendor/start/night
 	url = https://github.com/lfzuniga/night
+[submodule "vim/pack/vendor/start/act-syntax"]
+	path = vim/pack/vendor/start/act-syntax
+	url = https://github.com/lfzuniga/act-syntax
