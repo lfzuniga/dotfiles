@@ -8,6 +8,6 @@
 [submodule "vim/pack/vendor/start/night"]
 	path = vim/pack/vendor/start/night
 	url = https://github.com/lfzuniga/night
-[submodule "vim-act"]
-	path = vim-act
+[submodule "vim/pack/vendor/start/vim-act"]
+	path = vim/pack/vendor/start/vim-act
 	url = https://github.com/lfzuniga/vim-act
